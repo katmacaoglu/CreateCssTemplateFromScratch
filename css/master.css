@@ -18,6 +18,17 @@ h1 {
     padding-right: 31px;
 }
 
+body.about ul li#about,
+body.about ul li#about a,
+body.services ul li#services,
+body.services ul li#services a,
+body.portfolio ul li#portfolio,
+body.portfolio ul li#portfolio a,
+body.contact ul li#contact,
+body.contact ul li#contact a {
+	background-position: 0 -100px;
+}
+
 .hidden {
     display: none;
 }
@@ -30,8 +41,43 @@ h1 {
 
 #main-nav {
     height: 50px;
+    padding-left: 11px;
     /*background: red;*/
 }
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+    /*background: red;*/
+}
+
+#main-nav ul li {
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    height: 0 !important;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#main-nav ul li a:hover {
+    background-position: 0 -50px;
+}
+
+#main-nav ul li#about,
+#main-nav ul li#about a { width: 71px; background-image: url(../images/nav/about.gif); }
+
+#main-nav ul li#services,
+#main-nav ul li#services a { width: 84px; background-image: url(../images/nav/services.gif); }
+
+#main-nav ul li#portfolio,
+#main-nav ul li#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
+
+#main-nav ul li#contact,
+#main-nav ul li#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
 
 #header {
     height: 150px;
@@ -85,4 +131,10 @@ h1 {
 
 #footer a:hover {
     color: #db6d16;
+}
+
+#footer #altnav {
+    float:right;
+    width: 320px;
+    text-align: right;
 }
