@@ -1,3 +1,8 @@
 # CreateCssTemplateFromScratch
-Css Tutorial (http://www.subcide.com/articles/creating-a-css-layout-from-scratch)
+Css Tutorial (http://www.subcide.com/articles/creating-a-css-layout-from-scratch
+)
 test
+
+editing with vim editor
+
+
