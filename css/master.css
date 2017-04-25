@@ -68,6 +68,21 @@ h1 {
 
 #footer {
     clear: both;
-    height: 66px;
+    /*height: 66px;*/
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #c9c9c9;
+    border-top: 1px solid #efefef;
+    padding: 13px 25px;
+    line-height: 18px;
     /*background: orange;*/
+}
+
+#footer a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #db6d16;
 }
