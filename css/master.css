@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    background: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float:right;
+    margin-top: 57px;
+    padding-right: 31px;
+}
+
+.hidden {
+    display: none;
+}
+
+#page-container {
+    width: 760px;
+    margin: auto;
+    /*background: purple;*/
+}
+
+#main-nav {
+    height: 50px;
+    /*background: red;*/
+}
+
+#header {
+    height: 150px;
+    background: #db6d16 url(../images/about.jpg);
+    /*background: blue;*/
+}
+
+#sidebar-a {
+    float: right;
+    width: 280px;
+    line-height: 18px;
+    /*background: darkgreen;*/
+}
+
+#sidebar-a .padding {
+    padding: 25px;
+}
+
+#content {
+    margin-right: 280px;
+    line-height: 18px;
+    /*background: green;*/
+}
+
+#content h2, p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#content .padding {
+    padding: 25px;
+}
+
+#footer {
+    clear: both;
+    height: 66px;
+    /*background: orange;*/
+}
